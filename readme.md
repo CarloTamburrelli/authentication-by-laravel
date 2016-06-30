@@ -14,7 +14,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 #set db on .env
 #run db
 #php artisan migrate
-#php artisan make:seeder UsersTableSeeder
+#php artisan db:seed --class=UserTableSeeder
 #php artisan serve
 
 go to localhost:8000/login
